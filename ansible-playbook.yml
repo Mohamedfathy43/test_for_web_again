@@ -16,7 +16,7 @@
       ignore_errors: yes
 
     - name: Build Docker image using the Dockerfile
-      command: docker build -t webapp .
+      command: docker build -t mohamedfathy23/webapp:v1 .
 
 
     - name: Push image to DockerHub
